@@ -1,0 +1,364 @@
+body {
+  text-transform: capitalize;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  position: relative; }
+
+.rightSVG {
+  position: absolute;
+  right: -600px;
+  top: 125px;
+  z-index: 0; }
+
+.leftSVG {
+  position: absolute;
+  left: -600px;
+  top: 1000px;
+  z-index: 0; }
+
+header {
+  height: 100vh;
+  position: relative; }
+  header nav {
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    z-index: 10000; }
+    header nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      header nav .container .navbar-brand {
+        padding: 0;
+        margin: 0;
+        font-family: 'Abril Fatface', cursive; }
+      header nav .container .upperMenu {
+        padding: 0;
+        margin: 0;
+        display: flex; }
+        header nav .container .upperMenu li {
+          margin: 10px;
+          display: flex;
+          align-items: center; }
+          header nav .container .upperMenu li a {
+            display: block; }
+            header nav .container .upperMenu li a:hover {
+              color: #0056b3;
+              text-decoration: none; }
+          header nav .container .upperMenu li input[type="search"] {
+            outline: none;
+            border: 1px solid #0056b3;
+            border-radius: 3px;
+            padding: 5px;
+            margin-right: 5px; }
+          header nav .container .upperMenu li input[type="submit"] {
+            outline: none;
+            border: none;
+            background-color: #99f;
+            border-radius: 3px;
+            padding: 5px;
+            color: #fff; }
+            header nav .container .upperMenu li input[type="submit"]:hover {
+              background-color: #0056b3; }
+      header nav .container i {
+        display: none; }
+  header .sideMenu {
+    display: none; }
+  header .headerContent .SearchCard .card {
+    margin-top: 50px;
+    width: 500px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center; }
+    header .headerContent .SearchCard .card input {
+      border: 1px solid #00334E;
+      border-radius: 4px;
+      margin-right: 10px;
+      text-indent: 25px; }
+      header .headerContent .SearchCard .card input:nth-of-type(2) {
+        text-indent: 30px; }
+      header .headerContent .SearchCard .card input:focus {
+        outline: none; }
+    header .headerContent .SearchCard .card .icofont-location-pin {
+      position: absolute;
+      left: 14px;
+      top: 11px;
+      color: #666;
+      border-right: 1px solid #666; }
+    header .headerContent .SearchCard .card .icofont-briefcase {
+      position: absolute;
+      left: 241px;
+      top: 10px;
+      color: #666;
+      padding-right: 3px;
+      border-right: 1px solid #666; }
+    header .headerContent .SearchCard .card .icofont-search-1 {
+      background-color: #403ff2;
+      padding: 6px;
+      border-radius: 3px;
+      color: #fff; }
+  header .headerContent .slogan {
+    margin-top: 100px; }
+    header .headerContent .slogan p {
+      font-size: 4rem;
+      color: #00334E; }
+      header .headerContent .slogan p span:first-of-type {
+        font-weight: 100; }
+      header .headerContent .slogan p span:last-of-type {
+        font-weight: bold; }
+  header .headerContent .headerImage {
+    margin-top: -80px; }
+
+@media (max-width: 576px) {
+  header nav {
+    position: relative;
+    z-index: 1000;
+    background-color: #fff; }
+    header nav .container i {
+      display: flex;
+      color: #99f;
+      font-size: 20px; }
+    header nav .container .upperMenu {
+      display: none; }
+  header .sideMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    background-color: #99f;
+    margin-top: 50px;
+    text-align: end; }
+    header .sideMenu li {
+      margin-top: 10px;
+      padding: 0 15px; }
+      header .sideMenu li a {
+        color: #fff; }
+  header .container > p.slogan {
+    margin-top: 200px;
+    text-align: center; }
+  header p.slogan {
+    font-size: 3rem; }
+    header p.slogan span:first-of-type {
+      font-weight: 100; }
+    header p.slogan span:last-of-type {
+      font-weight: bold; } }
+section.services .container {
+  display: flex;
+  flex-direction: row; }
+  section.services .container article:first-of-type {
+    width: 40%;
+    margin-right: 5%; }
+  section.services .container article:last-of-type {
+    width: 55%; }
+    section.services .container article:last-of-type .card {
+      height: 200px;
+      width: 44%;
+      float: left;
+      border-radius: 10px;
+      padding: 20px 10px;
+      margin: 0 15px;
+      border: 1px solid #ccc;
+      box-shadow: 1px 1px 3px #ccc;
+      display: flex;
+      justify-content: center; }
+      section.services .container article:last-of-type .card:hover {
+        background-color: #eee;
+        cursor: pointer; }
+      section.services .container article:last-of-type .card .icons {
+        margin-bottom: 20px; }
+        section.services .container article:last-of-type .card .icons img {
+          width: 50px;
+          height: 50px;
+          margin-right: 20px; }
+        section.services .container article:last-of-type .card .icons i {
+          font-size: 50px;
+          color: #99f; }
+      section.services .container article:last-of-type .card h3 {
+        font-weight: bold; }
+      section.services .container article:last-of-type .card p {
+        margin: 0; }
+    section.services .container article:last-of-type .card:nth-of-type(2),
+    section.services .container article:last-of-type .card:nth-of-type(4) {
+      margin-top: 40px; }
+
+@media (max-width: 576px) {
+  section.services {
+    margin-top: 60px; }
+    section.services .container {
+      flex-direction: column; }
+      section.services .container article:first-of-type,
+      section.services .container article:last-of-type {
+        width: 100%; }
+      section.services .container article:first-of-type {
+        text-align: center; }
+      section.services .container article:last-of-type {
+        width: 100%; }
+        section.services .container article:last-of-type .card {
+          width: 100%;
+          margin: 0;
+          margin-top: 40px;
+          height: auto; } }
+section.categories article {
+  margin-bottom: 40px; }
+section.categories ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+  section.categories ul li {
+    text-align: center;
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #555; }
+  section.categories ul li:last-of-type {
+    background-color: #0ee077;
+    color: #00334E; }
+
+@media (max-width: 576px) {
+  section.categories ul li {
+    width: 100%; } }
+section.offers article h2 {
+  color: #00334E;
+  font-size: 60px;
+  margin-bottom: 20px; }
+section.offers article p {
+  color: #666; }
+section.offers .offersCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  section.offers .offersCards .card {
+    padding: 10px 15px;
+    margin: 10px;
+    width: 45%;
+    flex-grow: 1;
+    box-shadow: 1px 1px 5px #999;
+    border: none; }
+    section.offers .offersCards .card .companyInfo {
+      display: flex;
+      align-items: center; }
+      section.offers .offersCards .card .companyInfo img {
+        height: 50px;
+        width: 50px;
+        float: left; }
+      section.offers .offersCards .card .companyInfo h3 {
+        margin: 13px;
+        margin-bottom: 0; }
+        section.offers .offersCards .card .companyInfo h3 span {
+          font-size: 16px;
+          color: #999; }
+    section.offers .offersCards .card .jobInfo p, section.offers .offersCards .card .jobInfo h4 {
+      margin: 0; }
+    section.offers .offersCards .card .jobInfo p {
+      margin-left: 10px; }
+section.offers input[type="button"] {
+  margin-top: 40px;
+  background-color: #0056b3;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff; }
+
+@media (max-width: 576px) {
+  section.offers article.offers {
+    display: flex;
+    flex-direction: column; }
+    section.offers article.offers .card {
+      width: 100%;
+      margin: 10px  0; } }
+section.clients article {
+  margin-bottom: 65px; }
+section.clients .clientsCards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px; }
+  section.clients .clientsCards .card {
+    width: 30.33%;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1; }
+    section.clients .clientsCards .card img {
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  section.clients .clientsCards .card:nth-of-type(2),
+  section.clients .clientsCards .card:nth-of-type(5) {
+    top: -25px; }
+
+@media (max-width: 576px) {
+  section.clients .clients {
+    display: flex;
+    flex-direction: column; }
+    section.clients .clients .card {
+      width: 100%;
+      margin: 10px 0; }
+    section.clients .clients .card:nth-of-type(2),
+    section.clients .clients .card:nth-of-type(5) {
+      top: 0; } }
+footer {
+  background-color: #eee;
+  padding: 50px 0; }
+  footer h1 {
+    margin-bottom: 40px;
+    color: #403ff2;
+    font-family: 'Abril Fatface', cursive; }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    list-style: none;
+    color: #777; }
+  footer .followUs {
+    margin-top: 20px; }
+    footer .followUs ul {
+      display: flex; }
+      footer .followUs ul li {
+        margin: 0 10px;
+        font-size: 25px;
+        background-color: #403ff2;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
+.categories, .offers {
+  position: relative;
+  z-index: 1000;
+  padding: 100px 0; }
+  .categories article, .offers article {
+    margin-bottom: 40px; }
+  .categories h2, .offers h2 {
+    color: #00334E;
+    font-size: 60px;
+    margin-bottom: 20px; }
+  .categories p, .offers p {
+    color: #666;
+    margin: 0 230px; }
+
+.clients, .services {
+  position: relative;
+  z-index: 1000;
+  padding: 100px 0; }
+  .clients article, .services article {
+    margin-bottom: 40px; }
+  .clients h2, .services h2 {
+    color: #00334E;
+    font-size: 60px;
+    margin-bottom: 20px; }
+  .clients p, .services p {
+    color: #666; }
+
+/*# sourceMappingURL=index.css.map */

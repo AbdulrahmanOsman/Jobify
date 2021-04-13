@@ -1,0 +1,115 @@
+body {
+  text-transform: capitalize;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  position: relative; }
+
+.rightSVG {
+  position: absolute;
+  right: -600px;
+  top: 125px;
+  z-index: 0; }
+
+.leftSVG {
+  position: absolute;
+  left: -600px;
+  top: 125px;
+  z-index: 0; }
+
+nav .navbar-brand {
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive; }
+
+.SearchCard .row {
+  justify-content: center; }
+  .SearchCard .row .card {
+    margin-top: 100px;
+    width: 500px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center; }
+    .SearchCard .row .card input {
+      border: 1px solid #00334E;
+      border-radius: 4px;
+      margin-right: 10px;
+      text-indent: 25px; }
+      .SearchCard .row .card input:nth-of-type(2) {
+        text-indent: 30px; }
+      .SearchCard .row .card input:focus {
+        outline: none; }
+    .SearchCard .row .card .icofont-location-pin {
+      position: absolute;
+      left: 14px;
+      top: 11px;
+      color: #666;
+      border-right: 1px solid #666; }
+    .SearchCard .row .card .icofont-briefcase {
+      position: absolute;
+      left: 241px;
+      top: 10px;
+      color: #666;
+      padding-right: 3px;
+      border-right: 1px solid #666; }
+    .SearchCard .row .card .icofont-search-1 {
+      background-color: #403ff2;
+      padding: 6px;
+      border-radius: 3px;
+      color: #fff; }
+
+article {
+  margin: 50px 0; }
+  article .card {
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px #999;
+    border: none; }
+    article .card .companyInfo {
+      display: flex;
+      align-items: center; }
+      article .card .companyInfo img {
+        height: 50px;
+        width: 50px;
+        float: left; }
+      article .card .companyInfo h3 {
+        margin: 13px;
+        margin-bottom: 0; }
+        article .card .companyInfo h3 span {
+          font-size: 16px;
+          color: #999; }
+    article .card .jobInfo p, article .card .jobInfo h4 {
+      margin: 0; }
+    article .card .jobInfo p {
+      margin-left: 10px; }
+
+footer {
+  background-color: #eee;
+  padding: 50px 0; }
+  footer h1 {
+    margin-bottom: 40px;
+    color: #403ff2;
+    font-family: 'Abril Fatface', cursive; }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    list-style: none;
+    color: #777; }
+  footer .followUs {
+    margin-top: 20px; }
+    footer .followUs ul {
+      display: flex; }
+      footer .followUs ul li {
+        margin: 0 10px;
+        font-size: 25px;
+        background-color: #403ff2;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
+/*# sourceMappingURL=companyProfile.css.map */

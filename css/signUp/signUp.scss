@@ -1,0 +1,77 @@
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+
+//Start SVGs
+.rightSVG{
+    position: absolute;
+    right: -600px;
+    top: 125px;
+    z-index: 0;
+}
+//End SVGs
+
+
+
+nav {
+    position: relative;
+    z-index: 10000;
+    .navbar-brand{
+        letter-spacing: 1px;
+        font-size: 40px;
+        font-family: 'Abril Fatface', cursive;
+    }
+}
+
+
+
+
+.signUp{
+    position: relative;
+    z-index: 1000;
+        width: 70%;
+        margin-left: -100px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    form {
+        padding: 10px ;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            display: block;
+            text-align: center;
+            color: #999;
+            margin-bottom: 20px;
+        }
+    
+        input {
+            margin-bottom: 10px;
+            width: 400px;
+            padding: 5px;
+            border: 1px solid #403FF25A;
+            border-radius: 5px;
+
+            &:last-of-type {  
+                margin-top: 15px;  
+                width: 100px;
+                background-color: rgba(64,63,242,1);
+                color: #fff;
+            }
+        }
+    }
+
+}
+
+
