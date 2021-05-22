@@ -21,10 +21,12 @@ header {
   height: 100vh;
   position: relative; }
   header nav {
-    background-color: #fff;
-    padding: 10px;
     position: relative;
     z-index: 10000; }
+    header nav .navbar-brand {
+      letter-spacing: 1px;
+      font-size: 40px;
+      font-family: 'Abril Fatface', cursive; }
     header nav .container {
       display: flex;
       justify-content: space-between;

@@ -55,7 +55,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     <nav>
         <div class="container">
-            <a class="navbar-brand" href="#!">Jobify</a>
+            <a class="navbar-brand" href="index.php">Jobify</a>
         </div>
     </nav>
 

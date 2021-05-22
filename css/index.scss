@@ -29,10 +29,14 @@ header {
     height: 100vh;
     position: relative;
     nav {
-        background-color: #fff;
-        padding: 10px;
         position: relative;
         z-index: 10000;
+        .navbar-brand{
+            letter-spacing: 1px;
+            font-size: 40px;
+            font-family: 'Abril Fatface', cursive;
+        }
+        
         .container {
             display: flex;
             justify-content: space-between;

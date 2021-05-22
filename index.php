@@ -32,12 +32,12 @@
     <header>
         <nav>
             <div class="container">
-                <a class="navbar-brand" href="#!">Jobify</a>
+                <a class="navbar-brand" href="index.php">Jobify</a>
 
                 <ul class="list-unstyled upperMenu">
                     <li> <a href="#"> home</a></li>
-                    <li> <a href="#">find a job</a></li>
-                    <li> <a href="#">Create CV</a></li>
+                    <li> <a href="findJob.php">find a job</a></li>
+                    <li> <a href="createCV.php">Create CV</a></li>
                     <li><a href="#">about</a></li>
                     <li><a href="#">contact</a></li>
                     <li><a href="signIn.php" class="">log in</a></li>

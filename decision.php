@@ -33,7 +33,7 @@
     <!--Start Navbar-->
     <nav>
         <div class="container">
-            <a class="navbar-brand" href="#!">Jobify</a>
+            <a class="navbar-brand" href="index.php">Jobify</a>
         </div>
     </nav>
     <!--End Navbar-->

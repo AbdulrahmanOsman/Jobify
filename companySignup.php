@@ -58,7 +58,7 @@ if (isset($_POST['Add'])){
 
     <nav>
         <div class="container">
-            <a class="navbar-brand" href="#!">Jobify</a>
+            <a class="navbar-brand" href="index.php">Jobify</a>
         </div>
     </nav>
 
